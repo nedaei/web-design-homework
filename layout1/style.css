@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{
+	outline:1px dashed #FF8D1C;
+	min-height:100px;
+}
+
+div.container{
+	width:950px;
+	min-height:400px;
+	margin:0 auto;
+	background-image:url('lay1.jpg');
+	background-repeat:no-repeat;
+}
+
+div.header{
+	padding:1px;
+}
+
+div.header div.left{
+	margin-top:50px;
+	min-height:45px;
+}
+
+div.header div.right{
+	margin-top:50px;
+	min-height:45px;
+}
+
+div.header div.logo{
+	min-height:125px;
+	margin-top:5px;
+	margin-left:400px;
+	margin-right:400px;
+	margin-bottom:10px;
+}
+
+div.content{
+	padding:1px;
+}
+
+
+div.content div.right{
+	min-height:520px;
+}
+
+div.content div.mr12{
+	min-height:480px;
+	margin-top:40px;
+}
+
+div.image{
+	min-height:80px;
+	margin-top:20px;
+}
+
+div.icon{
+	min-height:45px;
+}
+
+div.copy{
+	min-height:50px;
+	
+}
