@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+*{
+	padding:0;
+	margin:0;
+}
+
+div.menu{
+	 margin-top:10px;
+	 margin-left:15px;
+	 width:180px;
+}
+ 
+div.menu ul{
+	 list-style-type:none;
+}
+ 
+div.menu li{
+	background-color:#AF8586;
+	border-top:1px solid #FFF;
+	-webkit-border-radius:16px;
+	-moz-border-radius:16px;
+	-o-border-radius:16px;
+	position:relative;
+}
+
+div.menu li:hover{
+	background-color:#B89293;
+}
+
+div.menu li:first-child{
+	border-top:none;
+}
+
+div.menu a{
+	text-decoration:none;
+	display:block;
+	padding:10px 30px;
+	color:#E2D3D3;
+	font-family:"Courier New", Courier, monospace;
+	font-size:19px;
+	font-weight:bold;
+	text-shadow:1px 1px 3px #CAACAD;
+	white-space:nowrap;
+}
+
+div.menu li ul{
+	position:absolute;
+	left:150px;
+	top:20px;
+	z-index:2;
+	display:none;
+	width:100%;
+}
+
+div.menu li:hover > ul{
+	display:block;
+}
+
+div.menu li li{
+	background-color:#B198A0;
+}
+	 
+</style>
+</head>
+
+<body>
+<div class="menu">
+	<ul>
+    	<li><a href="#">Home</a></li>
+        <li><a href="#">Work</a>
+        	<ul>
+            	<li><a href="#">Sample 1</a></li>
+                <li><a href="#">Sample 2</a>
+                	<ul>
+                    	<li><a href="#">Pack 1</a></li>
+                        <li><a href="#">Pack 2</a>
+                        	<ul>
+                        		<li><a href="#">Pack 1</a></li>
+                            	<li><a href="#">Pack 2</a>
+                                	<ul>
+                        				<li><a href="#">Pack 1</a></li>
+                            			<li><a href="#">Pack 2</a></li>
+                            			
+                             		</ul>
+                                </li>
+                            	<li><a href="#">Pack 3</a></li>
+                             </ul>
+                        </li>
+                        <li><a href="#">Pack 3</a></li>
+                        <li><a href="#">Pack 4</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#">Sample 3</a></li>
+                <li><a href="#">Sample 4</a></li>
+                <li><a href="#">Sample 5</a></li>
+            	
+            </ul>
+        </li>
+        <li><a href="#">What we do</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Join us</a></li>
+        <li><a href="#">Contact</a></li>
+     </ul>
+</div>
+</body>
+</html>
