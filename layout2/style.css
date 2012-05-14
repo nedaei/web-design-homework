@@ -1,0 +1,110 @@
+@charset "utf-8";
+/* CSS Document */
+
+div{
+	outline:1px dashed red;
+	min-height:100px;
+}
+
+div.container{
+	width:950px;
+	min-height:800px;
+	margin:0 auto;
+	background-image:url('lay2.jpg');
+	background-repeat:no-repeat;
+}
+
+div.header{
+	min-height:160px;
+	padding:1px;
+}
+
+div.header div.logo{
+	width:190px;
+	min-height:150px;
+	float:left;
+	margin:20px 70px 10px;
+	
+}
+
+div.header div.menu{
+	width:620px;
+	margin-left:300px;
+	min-height:150px;
+	margin-top:10px;
+	
+}
+div.header div.menu div.top{
+	min-height:25px;
+	margin-top:15px;
+}
+
+div.header div.menu div.bottom{
+	min-height:130px;
+	margin:0;
+}
+
+div.baner{
+	min-height:310px;
+	margin:0 20px;
+}
+
+div.image{
+	min-height:295px;
+	padding:1px;
+}
+
+div.image div.limage{
+	float:left;
+	width:285px;
+	min-height:220px;
+	margin:25px 15px 20px 25px;
+}
+
+div.image div.rimage{
+	float:right;
+	width:285px;
+	min-height:220px;
+	margin:25px 35px 20px 25px;
+}
+
+div.image div.mimage{
+	width:295px;
+	margin: 25px 320px 0px 320px;
+	min-height:220px;
+}
+
+div.search{
+	
+	padding:1px;
+}
+
+div.search div.s1{
+	float:left;
+	width:140px;
+	min-height:155px;
+	margin:25px 60px 0px 20px;
+}
+
+div.search div.s2{
+	float:left;
+	width:205px;
+	min-height:150px;
+	margin:25px 10px 0px 30px;
+}
+
+div.search div.s3{
+	float:left;
+	width:180px;
+	min-height:160px;
+	margin:25px 0px 0px;
+}
+
+div.search div.s4{
+	width:230px;
+	min-height:180px;
+	margin:25px 40px 20px 680px;
+	
+}
+div.footer{
+}
