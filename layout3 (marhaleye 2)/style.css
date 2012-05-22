@@ -1,0 +1,114 @@
+a{
+	text-decoration:none;
+	color:#3B3B3B;
+}
+.back{
+	background-image:url('images/background.jpg');
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center top;
+	position:fixed;
+	top:0;
+	right:0;
+	bottom:0;
+	left:0;
+	z-index:-1;
+}
+
+
+.logo h1{
+	background-image:url('images/logo.jpg');
+	background-size:100% 100%;
+	width:143px;
+	height:39px;
+	text-indent:1000px;
+	overflow:hidden;
+	margin:-30px 15px;
+	
+}
+
+.logo p{
+	color:#ADADAD;
+	font-style:italic;
+	font-size:12px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-weight:500;
+	
+	margin-bottom:3px; /*chera nemiyad bala ke ertefa ham ziyad nashe?*/
+}
+
+.container-panel{
+	background-color:#fff;
+	min-height:420px;
+	padding-top:20px;
+	
+}
+.text{
+	background-image:url('images/text.jpg');
+	background-repeat:no-repeat;
+	background-size:100% 100%;
+	width:221px;
+	height:110px;
+	margin-right:20px;
+	
+}
+.wetext {
+	color:#777;
+	line-height:1.5;
+	margin-top:130px;
+}
+
+.text a{
+	border-bottom:1px dotted #3B3B3B;
+}
+.orang-back:hover{
+	background-color:#ffd62c;
+	border-bottom:0 none;
+}
+
+.slid{
+	width:670px;
+	margin-bottom:40px;
+	margin-left:20px;
+	overflow:hidden;
+	position:relative;
+}
+
+.train{
+	width:2700px; 
+	position:relative;
+	-webkit-transition:left 100ms;
+}
+.train > div{
+	float : left;
+}
+
+.train > div > img{
+	display : block;
+}
+
+.slid ul.btns{
+	list-style-type : none;
+	position:absolute;
+	top:320px;
+	left:570px;
+	margin-top:15px;
+}
+
+.slid li{
+	width:10px;
+	height:10px;
+	background-color:#FFF;
+	border-radius:50%;
+	float:right;
+	margin-right:5px;
+	-webkit-transition:all 300ms;
+}
+
+.slid li:hover{
+	background-color:#000;
+	width:10px;
+	height:10px;
+	border-radius:50%;
+	-webkit-transition:all 100ms;
+}
